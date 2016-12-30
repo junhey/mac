@@ -35,6 +35,7 @@ Full-Stack Developers Using MAC OS
 - .DS_store生成
 
 > Mac下面压缩的时候总会自动生成 .DS_store 文件，用户可以自行选择是否需要生成，执行下面命令之后需要重启Mac生效。
+
 ```javascript
 //禁止 .DS_store生成：
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
@@ -73,11 +74,13 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 - 安装Git
+
 ```
 brew install git
 ```
 
 - Github配置
+
 ```
 ssh-keygen -t rsa -C "junhey@qq.com"
 # Copy ssh key to github.com
@@ -94,11 +97,13 @@ git config --global color.ui true
 ```
 
 - 安装svn
+
 ```
 brew install svn
 ```
 
 - 更新vim
+
 ```
 brew update
 brew install vim
@@ -109,7 +114,8 @@ brew install vim
 
 SublimeText的最大一个组成部分就是插件，个人觉得插件能够达到精简实用最好，下面推荐一些常用的插件，仅供参考。
 下面插件的安装方法
-```
+
+
 shift + cmd + p 打开命令面板
 输入 “Package Control: Install  Package” 命令
 输入 插件的名称 , 找到后回车安装
@@ -123,7 +129,7 @@ Bracket Highlighter（匹配括号高亮，自带的感觉高亮不强）
 SCSS（sass高亮）
 markdownPerview（写markdown可以command+b直接生成html预览）
 evernote（配合markdownPerview就可以写markdown同步到evernote去了）
-```
+
 
 
 
