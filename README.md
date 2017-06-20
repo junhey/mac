@@ -109,7 +109,7 @@ brew update
 brew install vim
 ```
 
--SublimeText
+- SublimeText
 
 
 SublimeText的最大一个组成部分就是插件，个人觉得插件能够达到精简实用最好，下面推荐一些常用的插件，仅供参考。
