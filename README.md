@@ -30,7 +30,7 @@ Full-Stack Developers Using MAC OS
 
 - Sublime Text/WebStorm
 
-- iTerm
+- iTerm2
 
 - .DS_store生成
 
@@ -115,11 +115,15 @@ brew install vim
 SublimeText的最大一个组成部分就是插件，个人觉得插件能够达到精简实用最好，下面推荐一些常用的插件，仅供参考。
 下面插件的安装方法
 
-
 shift + cmd + p 打开命令面板
+
 输入 “Package Control: Install  Package” 命令
+
 输入 插件的名称 , 找到后回车安装
+
 安装成功后在preferences中选择主题
+
+```
 Emmet （前端工程师利器，各种代码补全自动生成，更多介绍移步 官方文档）
 converttoUTF8（文档转码工具）
 git（git的一些操作都可以在这里进行）
@@ -129,8 +133,7 @@ Bracket Highlighter（匹配括号高亮，自带的感觉高亮不强）
 SCSS（sass高亮）
 markdownPerview（写markdown可以command+b直接生成html预览）
 evernote（配合markdownPerview就可以写markdown同步到evernote去了）
+```
 
-
-
-
-	
+参考文档：
+[凹凸实验室mac使用环境](https://mac.aotu.io)
